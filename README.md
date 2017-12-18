@@ -1,33 +1,27 @@
-NB: You might find useful the [sample proposal](https://github.com/zamfi/cca-programming-electronics-fall-2017/blob/master/hw/sample-proposal.md) useful in completing this assignment!
 
-# Your Project Title Here
 
-One-sentence summary of your project goes here. Then, make sure you have each of these sections completed:
+# Privacy Protector
+
+Code that protects privacy from others peeking at your computer by using face detection.
 
 ## Summary
 
-Here, write a paragraph or two describing what you built for your final project and what was challenging. 
-
-Include a discussion how it will be interactive or responsive to the environment.
+This code helps users to protect their privacy. If the owner of the computer has left the computer open temperately(the passwrod screen doesno't flash out yet) while others try to check the owner's computer, the computer will send out loud alarming sound to alert the owner and the people aroud. The computer will keep sending out loud negative response to repell the person using this computer until the person's face is not shown on screen.
 
 ## Component Parts
 
-From what pieces did you build your project?
-
-Include what types of inputs/outputs/data it will use, and a block diagram showing how all those pieces are connected.
+Processing & computer
 
 ## Challenges
+The code itself is very challenging.I'm not familiar with processing, opencv or arduino. Understanding the sample code online itself is challenging as well as building from scratches. Initially, I wanted to build a toy which only shows positive reaction to its owner while shows negative reaction to other people by using face recogonition in processing while connected to arduino.
 
-A brief discussion of what was hard, challenging, or unexpected about your project.
 
 ## Timeline
 
-What did you do in each of the past five weeks?
-
-- Week 1: Write proposal
-- Week 2: 
-- Week 3:
-- Week 4:
+- Week 1: Doing research around face recogonition. After this week I realized that building face recogonition is not really viable. 
+- Week 2: Switching from face recogonition to face detection. 
+- Week 3: Starting to mix face detection with sound in processing. 
+- Week 4: Mixing different selected sounds into the processing file.
 - Week 5: Present!
 
 ## Completed Work
@@ -35,5 +29,6 @@ What did you do in each of the past five weeks?
 Photos and videos of your completed final project!
 
 ## References and links
-
-Tutorials, comments, videos, magazine articles - anything you found that helps you understand your project.
+https://github.com/atduskgreg/opencv-processing-book/tree/master/code/face_tracking
+https://www.pyimagesearch.com/start-here-learn-computer-vision-opencv/
+http://workshopweekend.net/arduino/projects/etch_a_sketch
